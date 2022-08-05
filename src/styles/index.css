@@ -1,6 +1,4 @@
-
 /* 
-
     You can write your own styles here...
     
     
@@ -8,5 +6,61 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
+.container{
+    padding-left: 35%;
+    margin-top: 2%;
+}/* estructura semaforo*/
+
+.am{
+    padding-top: 8px;
+}
+
+.rayaNegra{
+background-color: black;
+height: 60px;
+width:40px;
+margin-left: 45px;
+}
+
+.rayaNegra1{
+background-color: black;
+height: 40px;
+width:600px;
+border-radius: 7px;
+}
+
+.rayaNegra2{
+position: absolute;
+background-color: black;
+height:550px;
+width:60px;
+border-radius: 7px;
+margin-left: 550px;
+}
+
+.traffic-light{
+        padding: 15px;
+        margin-top: 0px;
+        width:125px;
+        height: 350px;
+        background-color: black;
+        border-radius: 20px;
+}
+
+/* luces semaforo*/
+.light {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 13px;
+    border-radius:50%;
+}
+
+.red {background:rgba(255, 0, 0, 0.916)}
+.yellow {background:rgba(255, 255, 0, 0.947)}
+.green {background:rgba(38, 219, 38, 0.953)}
+
+.glow{
+    box-shadow: 0px 0px 30px 15px rgb(247, 231, 179);
+}
+
